@@ -1,0 +1,29 @@
+@media screen and (max-width: 1920px) {
+	
+	#background {
+    font-size:150%;
+	}
+	
+    .index {
+    background:url(../images/1920/paddleboard1920.jpg) no-repeat center;
+    max-width:1920px; 
+    height:window.innerheight;
+    }
+    
+    .design {
+    background:url(../images/1920/paddleboard1920.jpg) no-repeat center;
+    max-width:1920px; 
+    height:window.innerheight;
+    }
+    
+    .develop {
+    background:black;
+    max-width:1920px; 
+    height:window.innerheight;
+    }
+    
+    a.overlay {
+    padding-top:25px;
+    }
+    
+}

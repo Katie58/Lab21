@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html style="height: 100%;" lang="en-US">
+<head>
+<title>Kathleen Harrell - portfolio / development</title>
+<meta charset="UTF-8" />
+<meta name="keywords" content="graphic, graphics, design, designer, develop, developer, solution, solutions, michigan, usa" />
+<meta name="description" content="Kathleen Harrell" />
+<link rel="icon" href="images/ico/hrIconWhite.ico" type="image/x-icon" />
+<link rel='stylesheet' media='screen and (max-width: 540px)' href='css/mobile.css' />
+<link rel='stylesheet' media='screen and (min-width: 541px) and (max-width: 780px)' href='css/tablet.css' />
+<link rel='stylesheet' media='screen and (min-width: 781px) and (max-width: 1280px)' href='css/sd.css' />
+<link rel='stylesheet' media='screen and (min-width: 1281px) and (max-width: 1920px)' href='css/hd.css' />
+<link rel='stylesheet' media='screen and (min-width: 1921px)' href='css/fourK.css' />
+<link rel="stylesheet" media="screen" type="text/css" href="css/style.css" />
+</head>
+<body>	
+	<div id="background" class="develop">
+		<p id="code" class="typewriter"></p>	
+		<script src="testing.js" type="text/javascript"></script>
+		<script>
+			var i = 0;
+			var txt = testing1() + "THIS PAGE WILL HOLD MY DEVELOPER PROJECTS";
+			var speed = 50;
+			window.onload = function typeWriter() {
+			  if (i < txt.length) {
+			    document.getElementById("code").innerHTML += txt.charAt(i);
+			    i++;
+			    setTimeout(typeWriter, speed);
+			  }
+			}
+		</script>		
+		<div id="container-left">
+			<a href="index.html" class="overlay">
+				MY PORTFOLIO
+			</a>
+		</div>
+		<div id="container-nav">
+			DEVELOPMENT
+		</div>
+		<div id="container-right">
+			<a href="design.html" class="overlay">
+				DESIGN
+			</a>
+		</div>
+	
+	</div>	
+
+</body>
+</html>

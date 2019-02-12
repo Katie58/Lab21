@@ -1,0 +1,29 @@
+@media screen and (max-width: 780px) {
+	
+	#background {
+    font-size:75%;	
+	}
+	
+    .index {
+    background:url(../images/780/paddleboard780.jpg) no-repeat center;
+    max-width:780px; 
+    height:window.innerheight;
+    }
+    
+    .design {
+    background:url(../images/780/paddleboard780.jpg) no-repeat center;
+    max-width:780px; 
+    height:window.innerheight;
+    }
+    
+    .develop {
+    background:black;
+    max-width:780px; 
+    height:window.innerheight;
+    }
+    
+    a.overlay {
+    padding-top:15px;
+    }
+    
+}
