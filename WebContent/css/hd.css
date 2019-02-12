@@ -11,13 +11,12 @@
     }
     
     .design {
-    background:url(../images/1920/paddleboard1920.jpg) no-repeat center;
+    background:url(../images/1920/astonmartin.gif) no-repeat center;
     max-width:1920px; 
     height:window.innerheight;
     }
     
     .develop {
-    background:black;
     max-width:1920px; 
     height:window.innerheight;
     }

@@ -13,9 +13,13 @@ body {
     left:0;
 }
 
+.develop {
+	background: RGB(50,50,50);
+}
+
 .typewriter {
 	font-family:"Lucida Console", Monaco, monospace;
-	color:lime;
+	color:RGBA(57,255,20,0.5);
 	font-size:50%;
 	text-align:left;
 }
@@ -24,6 +28,7 @@ body {
 	width:20%;
 	height:10%;
 	background-color:RGBA(255,255,255,0.5);
+	box-shadow: -10px 10px 10px 0px RGBA(0,0,0,0.85);
 	position:absolute;
 	top:10px;
 	left:0px;
@@ -34,6 +39,7 @@ body {
 	width:auto;
 	height:10%;
 	background-color:RGBA(255,255,255,0.5);
+	box-shadow: 0 25px 25px -10px RGBA(0,0,0,0.85);
 	position:absolute;
 	top:10px;
 	left:25%;
@@ -45,6 +51,7 @@ body {
 	width:20%;
 	height:10%;
 	background-color:RGBA(255,255,255,0.5);
+	box-shadow: 10px 10px 10px 0px RGBA(0,0,0,0.85);
 	position:absolute;
 	top:10px;
 	right:0px;
@@ -69,4 +76,7 @@ a.overlay {
 	width:100%; 
 	height:100%; 
 	position:absolute; 
+	top:0px;
+	left:0px;
+
 }
